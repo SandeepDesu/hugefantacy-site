@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hugefantacy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- vendor css -->
+    <link href="css/vendor/bootstrap.css" rel="stylesheet"/>
+    <link href="css/vendor/font-awesome.css" rel="stylesheet"/>
+    <link href="css/vendor/animate.css" rel="stylesheet" />
+</head>
+<body ng-app="hugeFantacy" ng-controller="main">
+<div class="container">
+    <div ui-view></div>
+</div>
+
+<!-- Jquery modules -->
+<script src="js/jquery.js"></script>
+
+<!--  socket.io -->
+<script src="js/socket.io.js"></script>
+
+<!-- angular components   -->
+<script src="js/angular.js"></script>
+<script src="js/angular-ui-router.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/angular-resource.js"></script>
+<script src="js/socket.js"></script>
+
+
+<!-- app modules -->
+<script src="app/app.js"></script>
+<script src="app/config.js"></script>
+<script src="app/controllers/main.js"></script>
+<script src="app/controllers/login.js"></script>
+<script src="app/controllers/register.js"></script>
+
+
+<!-- services -->
+<script src="app/services/common.js"></script>
+<script src="app/services/socket-service.js"></script>
+</body>
+</html>
